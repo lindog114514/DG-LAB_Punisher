@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'untitled.ui'
+# Form implementation generated from reading ui file 'ui.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.9
 #
@@ -30,15 +30,15 @@ class Ui_Dialog(object):
         self.plugin_config = QtWidgets.QPushButton(self.verticalLayoutWidget)
         self.plugin_config.setObjectName("plugin_config")
         self.verticalLayout.addWidget(self.plugin_config)
+        self.pushButton = QtWidgets.QPushButton(self.verticalLayoutWidget)
+        self.pushButton.setObjectName("pushButton")
+        self.verticalLayout.addWidget(self.pushButton)
         self.run_plugin = QtWidgets.QPushButton(self.verticalLayoutWidget)
         self.run_plugin.setObjectName("run_plugin")
         self.verticalLayout.addWidget(self.run_plugin)
-        self.importwaveforms = QtWidgets.QPushButton(self.verticalLayoutWidget)
-        self.importwaveforms.setObjectName("importwaveforms")
-        self.verticalLayout.addWidget(self.importwaveforms)
-        self.run_waveforms = QtWidgets.QPushButton(self.verticalLayoutWidget)
-        self.run_waveforms.setObjectName("run_waveforms")
-        self.verticalLayout.addWidget(self.run_waveforms)
+        self.waveform_generator = QtWidgets.QPushButton(self.verticalLayoutWidget)
+        self.waveform_generator.setObjectName("waveform_generator")
+        self.verticalLayout.addWidget(self.waveform_generator)
         self.clos = QtWidgets.QPushButton(self.verticalLayoutWidget)
         self.clos.setObjectName("clos")
         self.verticalLayout.addWidget(self.clos)
@@ -46,10 +46,10 @@ class Ui_Dialog(object):
         self.textBrowser.setGeometry(QtCore.QRect(425, 20, 231, 461))
         self.textBrowser.setObjectName("textBrowser")
         self.label_2 = QtWidgets.QLabel(Dialog)
-        self.label_2.setGeometry(QtCore.QRect(10, 470, 71, 16))
+        self.label_2.setGeometry(QtCore.QRect(10, 470, 161, 16))
         self.label_2.setObjectName("label_2")
         self.label = QtWidgets.QLabel(Dialog)
-        self.label.setGeometry(QtCore.QRect(0, 20, 158, 51))
+        self.label.setGeometry(QtCore.QRect(-20, 20, 231, 51))
         self.label.setScaledContents(False)
         self.label.setObjectName("label")
         self.label_3 = QtWidgets.QLabel(Dialog)
@@ -57,10 +57,10 @@ class Ui_Dialog(object):
         self.label_3.setText("")
         self.label_3.setObjectName("label_3")
         self.lineEdit = QtWidgets.QLineEdit(Dialog)
-        self.lineEdit.setGeometry(QtCore.QRect(300, 70, 113, 20))
+        self.lineEdit.setGeometry(QtCore.QRect(290, 70, 113, 20))
         self.lineEdit.setObjectName("lineEdit")
         self.label_4 = QtWidgets.QLabel(Dialog)
-        self.label_4.setGeometry(QtCore.QRect(200, 70, 91, 16))
+        self.label_4.setGeometry(QtCore.QRect(180, 70, 111, 20))
         self.label_4.setObjectName("label_4")
 
         self.retranslateUi(Dialog)
@@ -72,20 +72,10 @@ class Ui_Dialog(object):
         self.openserver.setText(_translate("Dialog", "开启服务端 "))
         self.displayQR.setText(_translate("Dialog", "显示二维码 "))
         self.plugin_config.setText(_translate("Dialog", "插件配置 "))
+        self.pushButton.setText(_translate("Dialog", "插件市场 "))
         self.run_plugin.setText(_translate("Dialog", "启动插件 "))
-        self.importwaveforms.setText(_translate("Dialog", "导入波形 "))
-        self.run_waveforms.setText(_translate("Dialog", "播放波形"))
+        self.waveform_generator.setText(_translate("Dialog", "波形生成器 "))
         self.clos.setText(_translate("Dialog", "关闭程序 "))
         self.label_2.setText(_translate("Dialog", "<html><head/><body><p align=\"center\">By:凯凯同学 </p></body></html>"))
         self.label.setText(_translate("Dialog", "<html><head/><body><p align=\"center\"><span style=\" font-size:14pt;\">郊狼惩罚器</span> v1.0</p><p align=\"center\"><br/></p></body></html>"))
         self.label_4.setText(_translate("Dialog", "客户端连接地址："))
-
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    Dialog = QtWidgets.QDialog()
-    ui = Ui_Dialog()
-    ui.setupUi(Dialog)
-    Dialog.show()
-    sys.exit(app.exec_())

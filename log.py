@@ -4,6 +4,7 @@ import colorlog
 from logging.handlers import RotatingFileHandler
 from datetime import datetime
 
+
 cur_path = os.path.dirname(os.path.realpath(__file__))  # 当前项目路径
 log_path = os.path.join(os.path.dirname(cur_path), 'logs')  # log_path为存放日志的路径
 if not os.path.exists(log_path): os.mkdir(log_path)  # 若不存在logs文件夹，则自动创建
