@@ -10,7 +10,7 @@
 
 
 
-### 参考文档和项目 
+### 参考文档和项目(不分前后)
 
 - [郊狼情趣脉冲主机V3](https://github.com/DG-LAB-OPENSOURCE/DG-LAB-OPENSOURCE/blob/main/coyote/v3/README_V3.md)
 - [郊狼 SOCKET 控制-控制端开源](https://github.com/DG-LAB-OPENSOURCE/DG-LAB-OPENSOURCE/blob/main/socket/README.md)
