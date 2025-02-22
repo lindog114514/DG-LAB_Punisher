@@ -1,0 +1,31 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="17">
+            <item index="0" class="java.lang.String" itemvalue="wheel" />
+            <item index="1" class="java.lang.String" itemvalue="setuptools" />
+            <item index="2" class="java.lang.String" itemvalue="tzlocal" />
+            <item index="3" class="java.lang.String" itemvalue="yarl" />
+            <item index="4" class="java.lang.String" itemvalue="urllib3" />
+            <item index="5" class="java.lang.String" itemvalue="PyYAML" />
+            <item index="6" class="java.lang.String" itemvalue="aiohappyeyeballs" />
+            <item index="7" class="java.lang.String" itemvalue="aiohttp" />
+            <item index="8" class="java.lang.String" itemvalue="aiosignal" />
+            <item index="9" class="java.lang.String" itemvalue="attrs" />
+            <item index="10" class="java.lang.String" itemvalue="certifi" />
+            <item index="11" class="java.lang.String" itemvalue="charset-normalizer" />
+            <item index="12" class="java.lang.String" itemvalue="ffmpeg-python" />
+            <item index="13" class="java.lang.String" itemvalue="tzdata" />
+            <item index="14" class="java.lang.String" itemvalue="comtypes" />
+            <item index="15" class="java.lang.String" itemvalue="requests" />
+            <item index="16" class="java.lang.String" itemvalue="APScheduler" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>
