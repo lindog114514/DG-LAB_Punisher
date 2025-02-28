@@ -11,7 +11,8 @@
 
 ### 联系作者
 
-- [telegram](https://t.me/+hiC7MzGJdf8yNWZl)
+- [discord](https://discord.gg/zdPArkzRn9)
+
 
 ### 参考文档和项目(不分前后)
 
